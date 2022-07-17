@@ -1,0 +1,11 @@
+.products{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}

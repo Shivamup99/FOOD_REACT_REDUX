@@ -1,0 +1,22 @@
+.cart{
+    background-color: #d8eacc;
+    .data-grid{
+        padding: 50px;
+    }
+}
+.cellAction{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    .deleteBtn{
+       color: crimson !important;
+       cursor: pointer;
+    }
+    .viewBtn{
+        color: rgb(8, 34, 34) !important;
+        cursor: pointer;
+    }
+    .MuiSvgIcon-root{
+        font-size: 18px;
+    }
+}

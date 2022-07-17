@@ -1,0 +1,115 @@
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .left{
+        display: flex;
+        gap:30px;
+        letter-spacing: 1px;
+       span{
+        &:hover{
+            color: teal;
+        }
+       }
+    }
+    .center{
+          img{
+            height: 70px;
+            width: 148px;
+            border-radius: 80px;
+            object-fit: cover;
+            cursor: pointer;
+          }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        letter-spacing: 1px;
+        .MuiSvgIcon-root{
+            color: gray;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        .avatar{
+            cursor: pointer;
+        }
+        .login{
+            padding: 8px;
+            font-size: 18px;
+            background-color: inherit;
+            cursor: pointer;
+            border: 1px solid gray;
+            width: 100px;
+            outline: none;
+            letter-spacing: 1px;
+            &:hover{
+                background-color: rgb(197, 197, 197);
+            }
+        }
+        .signup{
+            padding: 8px;
+            font-size: 18px;
+            background-color: teal;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            width: 100px;
+            letter-spacing: 1px;
+            &:hover{
+                background-color: rgb(0, 57, 57);
+            }
+        }
+        .MuiSvgIcon-root{
+            font-size: 24px;
+            &:hover{
+                color: teal;
+            }
+        }
+    }
+}
+.product-cat{
+    padding: 20px;
+    z-index: 999;
+    .pro-cat{
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        h4{
+            color: teal;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        .pro-data{
+            display: flex;
+            justify-content: space-between;
+          span{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            cursor: pointer;
+            img{
+                height: 69px;
+                width: 89px;
+                border-radius: 10px;
+            }
+            b{
+                letter-spacing: 1px;
+                color: rgb(41, 41, 41);
+            }
+          }
+        }
+    }
+}
+.scrolled{
+    background-color: #fff;
+ }
